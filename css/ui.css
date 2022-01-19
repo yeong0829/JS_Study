@@ -1,5 +1,8 @@
             /* 폰트 지정 못함 */
-            body{ margin:0%; }
+            body{
+                 margin:0%; 
+                 font-size: 115%;
+            }
             #menu{
                 position: fixed;  /*위치고정*/
                 width:100%;
