@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>지원하기</title>
+	<link rel="stylesheet" type="text/css" href="css/apply.css" />
+	<link rel="stylesheet" type="text/css" href="css/bar.css" />
+	<script src="apply.js"></script>
+	
+</head>
+
+<body>
+	<div id='menu'>
+        <ul>
+            <il id='logo'>logo</il>
+            <il><a href=#>JS 지원</a></il>
+            <il><a href=#>JS 스터디 프로젝트</a></il>
+            <il><a href=#>JS 동아리 활동</a></il>
+            <il><a href=#>Q&A</a></il>
+        </ul>
+    </div>
+
+	<header>
+   	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	</header>
+	<div id='img'>
+		<img src="https://t1.daumcdn.net/cfile/tistory/12257B4A5114E9A03F" alt="test">
+	</div>
+
+	<div id='body'>
+		<div id='legend'>
+			<legend>
+				<h1>JS 입부 신청</h1>
+			</legend><br>
+		</div>
+		<div id='information'>
+			<label for="idnum">학번과 이름을 적어주세요.</label><br>
+			<div class="idnum">
+			<textarea id="idnum" rows="1" cols="80" placeholder="학번 / 이름"></textarea>
+			</div>
+			<br>
+			<label for="email">이메일을 적어주세요.</label><br>
+			<div class="email">
+			<textarea id="email" rows="1" cols="80" placeholder="@e-mirim.hs.kr"></textarea>
+			</div>
+			<br>
+			<label for="tel">전화번호를 적어주세요.</label><br>
+			<div class="tel">
+			<textarea id="tel" rows="1" cols="80" placeholder="010-1234-5678"></textarea>
+			</div>
+			<br><br>
+		</div>
+		<div>
+			<label>지원 사유</label>
+			<span style="color:#aaa;" id="counter">(0/500)</span><br>
+			<textarea class="comment" rows="10" cols="80" placeholder="500자 이하로 적어주세요." maxlength="500"></textarea>
+			<br><br>
+		</div>
+		<div id='submit'>
+			<button class="custom-btn btn-16">제출하기</button>
+		</div>
+	</div>
+
+</body>
+
+</html>
