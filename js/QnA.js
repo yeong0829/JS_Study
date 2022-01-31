@@ -14,7 +14,7 @@ function onclickBox(e){
     choice(value); //몇번 질문인지
     localStorage.setItem("answer",JSON.stringify(answer));
     localStorage.setItem("question",JSON.stringify(question));
-    localStorage.setItem("answer",JSON.stringify(answer));
+    localStorage.setItem("date",JSON.stringify(date));
 }
 function choice(value){
     switch(value){
