@@ -4,7 +4,7 @@ const aa =document.querySelectorAll('#title');
 let value = 0;//몇번 질문인지
 let answer = 0;//질문
 let question = 0;//답변
-
+console.log(zsdf)
 aa.forEach((box) =>{
     box.addEventListener('click', onclickBox)
 });
