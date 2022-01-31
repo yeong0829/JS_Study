@@ -26,7 +26,7 @@ a:active { color:#d3b239; }  /*클릭중 색깔*/
 
 #title{
     text-align:center;
-    margin-top: 6%;
+    margin-top: 2%;
 }
 #day{
     margin-bottom: 0.8%;
@@ -56,4 +56,13 @@ hr{
 #list{
     margin-left: 49%;
     margin-top: 2%;
+}
+
+#m{
+    margin-top: 3%;
+    margin-left: 12%;   
+}
+
+th{
+    font-weight: 500;
 }
