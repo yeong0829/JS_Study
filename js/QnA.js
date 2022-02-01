@@ -8,16 +8,19 @@ let date = 0;//날짜
 let content = 0;//질문 내용
 
 //console.log(zsdf)
-aa.forEach((box) =>{
-    box.addEventListener('click', onclickBox)
-});
-function onclickBox(e){
-    let value = thie.className;
+aa.forEach((title) => {
+    addEventListener("click",textChange)
+}); 
+
+function textChange(){
+    let value = this.className;
+    alert(value);
+    location.replace('Answer/A1.html');
     choice(value); //몇번 질문인지
     localStorage.setItem("answer",JSON.stringify(answer));
     localStorage.setItem("question",JSON.stringify(question));
     localStorage.setItem("date",JSON.stringify(date));
-    localStorage.setItem("question",JSON.stringify(content));
+    localStorage.setItem("content",JSON.stringify(content));
 }
 function choice(value){
     switch(value){
