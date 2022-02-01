@@ -1,5 +1,4 @@
-const aa =document.querySelectorAll('#title');
-
+const aas =document.querySelectorAll('#title');
 
 let value = 0;//몇번 질문인지
 let answer = 0;//답변
@@ -8,11 +7,11 @@ let date = 0;//날짜
 let content = 0;//질문 내용
 
 //console.log(zsdf)
-aa.forEach((title) => {
-    addEventListener("click",textChange)
+aas.forEach((box) => {
+    addEventListener("click",textChange);
 }); 
 
-function textChange(){
+function textChange(event){
     let value = this.className;
     alert(value);
     location.replace('Answer/A1.html');
