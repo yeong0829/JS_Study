@@ -30,16 +30,17 @@ function choice(value){
             date = `2022/1/12`;
             break;
         case '2' :
-            answer =`지금까지 한 프로젝트는 동아리 웹사이트 만들기가 있습니다.`;
-            question=`프로젝트`;
-            content = `동아리에서는 어떤 프로젝트를 진행하나요?`
+            answer =`4월 21일부터 신청 받습니다. 뽑는 과정은 동아리 입부 지원서와 대면 면접을 통해 동아리원을 뽑습니다.`;
+            question=`동아리원 모집`;
+            content = `동아리 부원 모집일은 언제부터인가요? 뽑는 과정은 어떻게 되나요?`
             date = `2022/1/12`;
             break;
         case '3' :
-            answer = `JS는 java script를 뜻합니다.`;
-            question=`동아리 이름`;
-            content = `JS스터디에 JS는 무슨 의미인가요?`
+            answer =`정확하게 정해져 있지는 않지만 4명에서 6명 정도 예상하고 있습니다.`;
+            question=`신입생`;
+            content = `신입생은 몇 명 정도 뽑을 예정인가요? 그리고 과마다 몇 명씩 뽑는지 정해져있나요?`
             date = `2022/1/12`;
+            
             break;
         case '4' :
             answer =`JS스터디의 담당 선생님은 백현정 선생님입니다!`;
@@ -48,9 +49,9 @@ function choice(value){
             date = `2022/1/12`;
             break;
         case '5' :
-            answer =`4월 21일부터 신청 받습니다. 뽑는 과정은 동아리 입부 지원서와 대면 면접을 통해 동아리원을 뽑습니다.`;
-            question=`동아리원 모집`;
-            content = `동아리 부원 모집일은 언제부터인가요? 뽑는 과정은 어떻게 되나요?`
+            answer =`지금까지 한 프로젝트는 동아리 웹사이트 만들기가 있습니다.`;
+            question=`프로젝트`;
+            content = `동아리에서는 어떤 프로젝트를 진행하나요?`
             date = `2022/1/12`;
             break;
         case '6' :
@@ -66,15 +67,15 @@ function choice(value){
             date = `2022/1/12`;
             break;
         case '8' :
-            answer =`2학년 6명 3학년 6명으로 구성되어 총 12명이 있습니다.`;
+            answer =`2학년 6명 3학년 4명으로 구성되어 총 10명이 있습니다.`;
             question=`동아리원`
             content = `현재 동아리원은 몇명인가요? 2학년과 3학년이 몇 명씩 있는지도 궁금해요!`
             date = `2022/1/12`;
             break;
         case '9' :
-            answer =`정확하게 정해져 있지는 않지만 4명에서 6명 정도 예상하고 있습니다.`;
-            question=`신입생`;
-            content = `신입생은 몇 명 정도 뽑을 예정인가요? 그리고 과마다 몇 명씩 뽑는지 정해져있나요?`
+            answer = `JS는 java script를 뜻합니다.`;
+            question=`동아리 이름`;
+            content = `JS스터디에 JS는 무슨 의미인가요?`
             date = `2022/1/12`;
             break;
         case '10' :
