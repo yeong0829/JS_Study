@@ -3,32 +3,46 @@
 	padding: 0;
 }
 
-.img-text1, .img-text2, .img-text3, .img-text4, .img-text5, .img-text6{
+.img-text1, .img-text2, .img-text3, .img-text4, .img-text5 {
     text-align: justify;
-    width: 230px;
+    width: 260px;
 }
 
-.img-text1 img, .img-text2 img, .img-text3 img, .img-text4 img, .img-text5 img, .img-text6 img {
-    width: 230px;
-    height: 230px;
+.img-text1 img, .img-text2 img, .img-text3 img, .img-text4 img, .img-text5 img {
+    width: 260px;
+    height: 260px;
     display: inline-block; 
     margin: 0 auto;
 }
 
-.img-text1, .img-text2, .img-text3, .img-text4, .img-text5, .img-text6 {
-    padding-left: 8.5%;
-    padding-right: 8.5%;
+.img-text1, .img-text2 {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
     /*padding-top: -20%;*/
     text-align: center;
     float: left;
 }
 
-.img-with-text1, .img-with-text3, .img-with-text5, .img-with-text6, .img-with-text7, .img-with-text8, .img-with-text9, .img-with-text10, .img-with-text11, .img-with-text12  {
-    float: left;
-    padding-bottom: 20%;
+.img-text2 {
+    padding-right: 20%; //11기 옆 오른쪽 공백
 }
 
-.img-text1, .img-text2, .img-text3, .img-text4, .img-text5, .img-text6  {
+.img-text3, .img-text4, .img-text5 {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    /*padding-top: -20%;*/
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+    float: left;
+}
+
+.img-with-text1, .img-with-text2, .img-with-text3, .img-with-text4, .img-with-text5, .img-with-text6, .img-with-text7, .img-with-text8, .img-with-text9, .img-with-text10 {
+    float: left;
+    padding-bottom: 5%;
+}
+
+.img-text1, .img-text2, .img-text3, .img-text4, .img-text5 {
     display: inline-block;
     margin: 0 auto;
     float: left;
@@ -41,12 +55,16 @@ p {
 .season11, .season12 {
 	width: 100px;
 	height: 50px;
-	margin-top: 2.5%;
-	margin-left: 3%;
+	margin-top: 3%;
+	margin-left: 5%;
 	font-family: "Noto Sans KR";
 	font-size: 35px;
 	color: black;
 	font-weight: bold;
 	text-align: center;
 	line-height: 50px;
+}
+
+.season12 p {
+    margin-top: 30%; 
 }
