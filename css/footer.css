@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.img-text1, .img-text2, .img-text3{
+    text-align: justify;
+    width: 230px;
+}
+
+.img-text1 img, .img-text2 img, .img-text3 img {
+    width: 230px;
+    height: 230px;
+    display: inline-block; 
+    margin: 0 auto;
+}
+
+.img-text1, .img-text2, .img-text3 {
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+    padding-top: 5%;
+    text-align: center;
+    float: left;
+}
+
+/* .img-text1 p, .img-text2 p, .img-text3 p {
+    text-align: center;
+} */
+
+.img-with-text1, .img-with-text2, .img-with-text3, .img-with-text4, .img-with-text5, .img-with-text6, .img-with-text7, .img-with-text8, .img-with-text9 {
+    float: left;
+    padding-bottom: 30%;
+}
+
+.img-text1, .img-text2, .img-text3  {
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+}
+
+p {
+    font-family: "Noto Sans KR";
+}
+/*footer {
+    width: 100%;
+    height: 110px;
+    bottom: 0px;
+    position: absolute;
+}*/
+
+footer{
+    /*position: absolute;
+    width: 50%;
+    left: 40%;
+    margin-left: -200px;
+    margin-top: 43%;*/
+    position: fixed;    /*footer 하단 고정*/
+    bottom: 0;
+    width: 100%;
+    top: 87%;
+    left: 0%;
+    background-color: #BDBDBD;
+}
+
+footer .footer-info {
+    /*float: left;
+    width: 400px;*/
+    padding: 5px 10px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Noto Sans KR";
+    color: #F6F6F6;
+    font-size: small;
+    display: inline;
+}
