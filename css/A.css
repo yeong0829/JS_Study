@@ -40,3 +40,7 @@ hr{
 th{
     font-weight: 500;
 }
+
+footer{
+    position: fixed;
+}
