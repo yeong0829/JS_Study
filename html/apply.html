@@ -34,24 +34,25 @@
 			</legend><br>
 		</div>
 		<div id='information'>
+			<form action="/new">
 			<label for="iname">이름을 적어주세요.</label><br>
 			<div class="name">
-			<textarea id="name" rows="1" cols="75" placeholder="이름"></textarea>
+			<textarea id="name" rows="1" cols="75" name = "name" placeholder="이름"></textarea>
 			</div>
 			<br>
 			<label for="idnum">학번을 적어주세요.</label><br>
 			<div class="idnum">
-			<textarea id="idnum" rows="1" cols="75" placeholder="학번"></textarea>
+			<textarea id="idnum" rows="1" cols="75" name = "id" placeholder="학번"></textarea>
 			</div>
 			<br>
 			<label for="email">이메일을 적어주세요.</label><br>
 			<div class="email">
-			<textarea id="email" rows="1" cols="75" placeholder="@e-mirim.hs.kr"></textarea>
+			<textarea id="email" rows="1" cols="75" name = "email" placeholder="@e-mirim.hs.kr"></textarea>
 			</div>
 			<br>
 			<label for="tel">전화번호를 적어주세요.</label><br>
 			<div class="tel">
-			<textarea id="tel" rows="1" cols="75" placeholder="010-1234-5678"></textarea>
+			<textarea id="tel" rows="1" cols="75" name = "phone" placeholder="010-1234-5678"></textarea>
 			</div>
 			<br><br>
 		</div>
@@ -59,13 +60,14 @@
 			<label>지원 사유</label>
 			<span style="color:#aaa;" id="counter">(0/500)</span><br>
 			<div class="commentdiv">
-			<textarea class="comment" rows="8" cols="75" placeholder="500자 이하로 적어주세요." maxlength="500"></textarea>
+			<textarea class="comment" rows="8" cols="75" name = "reason" placeholder="500자 이하로 적어주세요." maxlength="500"></textarea>
 			</div>
 			<br><br>
 		</div>
 		<div id='submit'>
 			<button class="custom-btn btn-16">제출하기</button>
 		</div>
+		</form>
 	</div>
 
 	<footer> 
