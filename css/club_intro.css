@@ -58,3 +58,6 @@ div .cript p{
 	margin-top: 4%;
 	line-height: 220%;
 }
+footer{
+    position: fixed;
+}
