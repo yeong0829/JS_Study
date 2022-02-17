@@ -1,16 +1,12 @@
-const mysql    = require('mysql');
-const connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : 'mirim',
-  database : 'newMember_db'
-});
+let express = require('express')
+, http = require('http')
+, path = require('path')
+, static = require('serve-static');
 
-connection.connect();
+let app = express();
 
-connection.query('SELECT * from newMember_db.users', (error, rows, fields) => {
-  if (error) throw error;
-  console.log('User info is: ', rows);
-});
+app.use('/',static(path.join(__dirname,'../html')));
 
-connection.end();
+http.createServer(app).listen(3001,function(){
+    console.log('express webserver start ! :: 3001');
+})
