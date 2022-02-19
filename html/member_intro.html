@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>사진 밑 글씨 연습</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="stylesheet" type="text/css" href="../css/member_intro.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" /> 
-    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
-
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+       
+        <title>사진 밑 글씨 연습</title>
+        
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/member_intro.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css"> 
+        <link rel="stylesheet" type="text/css" href="../css/footer.css">
+        <link rel="stylesheet" type="text/css" href="../css/fullpage.css">
+        <link rel="stylesheet" type="text/css" href="../css/scroll.css">
+    </head>
+<body onload="slide_active()">
     <div id='menu'>
         <ul>
             <il id='logo'><a href='club_intro.html'>logo</a></il>
@@ -21,99 +25,115 @@
     </div> <!-- 메뉴 바 -->
     <br>
 
-    <div class = "season11">
-        <p>11기</p>
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <div class="slide active" style="background-image: url(../img/1_project.jpg); background-size: cover;"><h1>JS</h1></div>
+            <div class="slide" style="background-image: url(../test2.png); background-size: cover;"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+        </div>
+        <div class="section" id="section1">
+            <div class = "season11">
+                <p>11기</p>
+            </div>
+
+            <div class = "img-text1">
+                <div class="img-with-text1">
+                    <img src="../img/psy.png" />
+                    <p>박수연</p>
+                    <p>소프트웨어과</p>
+                </div>
+
+                <!-- <div class="img-with-text2">
+                    <img src="member_pic/.png" />
+                    <p>ㅇㅇㅇ</p>
+                    <p>소프트웨어과</p>
+                </div> -->
+            </div> <!-- 첫 번째 줄 -->
+
+            <div class = "img-text2">
+                <div class = "img-with-text3">
+                    <img src="../img/phw.png" />
+                    <p>박혜원</p>
+                    <p>소프트웨어과</p>
+                </div>
+
+                <!-- <div class="img-with-text4">
+                    <img src="member_pic/student1.jpg" />
+                    <p>ㅇㅇㅇ</p>
+                    <p>소프트웨어과</p>
+                </div> -->
+            </div> <!-- 두 번째 줄 -->
+
+            <div class = "img-text3">
+                <div class="img-with-text5">
+                    <img src="../img/lhn.png" />
+                    <p>이하나</p>
+                    <p>디자인과</p>
+                </div>
+                
+                <!-- <div class="img-with-text6">
+                    <img src="member_pic/student1.jpg" />
+                    <p>ㅇㅇㅇ</p>
+                    <p>소프트웨어과</p>
+                </div> -->
+            </div> <!-- 세 번째 줄 -->
+        </div>
+        <div class="section" id="section2">
+            <div class = "season12">
+                <p>12기</p>
+            </div>
+
+            <div class = "img-text4">
+                <div class="img-with-text7">
+                    <img src="../img/kys.png" />
+                    <p>김윤서</p>
+                    <p>소프트웨어과</p>
+                </div>
+
+                <div class="img-with-text8">
+                    <img src="../img/yhw.png" />
+                    <p>양혜원</p>
+                    <p>웹솔루션과</p>
+                </div>
+            </div> <!-- 네 번째 줄 -->
+
+            <div class = "img-text5">
+                <div class="img-with-text9">
+                    <img src="../img/icy.png" />
+                    <p>임채영</p>
+                    <p>소프트웨어과</p>
+                </div>
+                
+                <div class="img-with-text10">
+                    <img src="../img/pmj.png" />
+                    <p>박민지</p>
+                    <p>디자인과</p>
+                </div>
+            </div> <!-- 다섯 번째 줄 -->
+
+            <div class = "img-text6">
+                <div class="img-with-text11">
+                    <img src="../img/syr.png" />
+                    <p>신유림</p>
+                    <p>웹솔루션과</p>
+                </div>
+
+                <div class="img-with-text12">
+                    <img src="../img/jsy.png" />
+                    <p>전수연</p>
+                    <p>디자인과</p>
+                </div>
+            </div> <!-- 여섯 번째 줄 -->
+        </div>
     </div>
+    <script type="text/javascript" src="../js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+        });
+    </script>
 
-    <div class = "img-text1">
-        <div class="img-with-text1">
-            <img src="../img/psy.png" />
-            <p>박수연</p>
-            <p>소프트웨어과</p>
-        </div>
-
-        <!-- <div class="img-with-text2">
-            <img src="member_pic/.png" />
-            <p>ㅇㅇㅇ</p>
-            <p>소프트웨어과</p>
-        </div> -->
-    </div> <!-- 첫 번째 줄 -->
-
-    <div class = "img-text2">
-        <div class = "img-with-text3">
-            <img src="../img/phw.png" />
-            <p>박혜원</p>
-            <p>소프트웨어과</p>
-        </div>
-
-        <!-- <div class="img-with-text4">
-            <img src="member_pic/student1.jpg" />
-            <p>ㅇㅇㅇ</p>
-            <p>소프트웨어과</p>
-        </div> -->
-    </div> <!-- 두 번째 줄 -->
-
-    <div class = "img-text3">
-        <div class="img-with-text5">
-            <img src="../img/lhn.png" />
-            <p>이하나</p>
-            <p>디자인과</p>
-        </div>
-        
-        <!-- <div class="img-with-text6">
-            <img src="member_pic/student1.jpg" />
-            <p>ㅇㅇㅇ</p>
-            <p>소프트웨어과</p>
-        </div> -->
-    </div> <!-- 세 번째 줄 -->
-
-    <div class = "season12">
-        <p>12기</p>
-    </div>
-
-    <div class = "img-text4">
-        <div class="img-with-text7">
-            <img src="../img/kys.png" />
-            <p>김윤서</p>
-            <p>소프트웨어과</p>
-        </div>
-
-        <div class="img-with-text8">
-            <img src="../img/yhw.png" />
-            <p>양혜원</p>
-            <p>웹솔루션과</p>
-        </div>
-    </div> <!-- 네 번째 줄 -->
-
-    <div class = "img-text5">
-        <div class="img-with-text9">
-            <img src="../img/icy.png" />
-            <p>임채영</p>
-            <p>소프트웨어과</p>
-        </div>
-        
-        <div class="img-with-text10">
-            <img src="../img/pmj.png" />
-            <p>박민지</p>
-            <p>디자인과</p>
-        </div>
-    </div> <!-- 다섯 번째 줄 -->
-
-    <div class = "img-text6">
-        <div class="img-with-text11">
-            <img src="../img/syr.png" />
-            <p>신유림</p>
-            <p>웹솔루션과</p>
-        </div>
-
-        <div class="img-with-text12">
-            <img src="../img/jsy.png" />
-            <p>전수연</p>
-            <p>디자인과</p>
-        </div>
-    </div> <!-- 여섯 번째 줄 -->
-
-    <footer> 
+    <footer style="position: fixed;"> 
 		<!-- <h3 class="notice">정보</h3> --> 
 		<div class="footer-info">
 			<div>
