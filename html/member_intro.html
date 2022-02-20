@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="../css/footer.css">
         <link rel="stylesheet" type="text/css" href="../css/fullpage.css">
         <link rel="stylesheet" type="text/css" href="../css/scroll.css">
+        <link rel="stylesheet" type="text/css" href="../css/img_slide.css">
     </head>
 <body onload="slide_active()">
     <div id='menu'>
@@ -26,12 +27,23 @@
     <br>
 
     <div id="fullpage">
-        <div class="section" id="section0">
-            <div class="slide active" style="background-image: url(../img/1_project.jpg); background-size: cover;"><h1>JS</h1></div>
-            <div class="slide" style="background-image: url(../test2.png); background-size: cover;"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
+        <div class="section" id="section0">     
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="../img/1_project.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="../img/2_project.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="../img/2_project2.png" style="width:100%">
+                </div>
+            </div>
         </div>
+
         <div class="section" id="section1">
             <div class = "season11">
                 <p>11기</p>
@@ -149,4 +161,5 @@
 	</footer>
 
 </body>
+<script type="text/javascript" src="../js/img_slide.js"></script>
 </html>
