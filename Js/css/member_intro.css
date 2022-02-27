@@ -70,20 +70,6 @@ p {
     margin-left: 6%;
 }
 
-/*.season11 {
-    width: 100px;
-    height: 60px;
-    margin-top: 3%;
-    margin-bottom: -1%;
-    margin-left: 47%;
-    font-family: "Noto Sans KR";
-    font-size: 40px;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    line-height: 50px;
-}*/
-
 .season12 {
     width: 100px;
     height: 60px;
@@ -106,41 +92,14 @@ p {
     margin-left: 6%;
 }
 
-/*.season12 {
-    width: 100px;
-    height: 50px;
-    margin-top: 5%;
-    margin-left: 47%;
-    font-family: "Noto Sans KR";
-    font-size: 40px;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    line-height: 50px;
-}*/
-
 .season11 p {
-/*color: #632486;
-font-family: 'Noto Sans KR';
-text-shadow: -.030em .030em #FFF6E6, -.08em .08em #E7DCD7;
-*/
-color: #632486;
-font-family: 'Noto Sans KR';
-text-shadow: -.08em .08em #E7DCD7;
-
-/*color: #632486;
-font-family: 'Erica One';
-text-shadow: -.030em .030em #EEEEEE, -.06em .06em #707070;
-*/
-
+    color: #632486;
+    font-family: 'Noto Sans KR';
+    text-shadow: -.08em .08em #E7DCD7;
 }
 
 .season12 p {
-/*color: #03933F;
-font-family: 'Noto Sans KR';
-text-shadow: -.030em .030em #FFF6E6, -.08em .08em #E7DCD7;
-}*/
-
-color: #03933F;
-font-family: 'Noto Sans KR';
-text-shadow: -.08em .08em #E7DCD7;
+    color: #03933F;
+    font-family: 'Noto Sans KR';
+    text-shadow: -.08em .08em #E7DCD7;
+}
