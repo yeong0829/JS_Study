@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	float: right;
+	margin-right: 10%;
+	margin-top: 7%;
+	width: 550px;
+	height: 500px;
+}
+
+p {
+	font-family: "Noto Sans KR";
+}
+
+.j {
+	float: left;
+	margin-left: 24%;
+	margin-top: 15%;
+	line-height: 130%;
+	font-size: 60px;
+	font-weight: bolder;
+	/*text-shadow: 3px 3px 2px gray;*/
+	/*text-shadow: 2px 2px 2px #FFD53D, 2px 2px 2px #FFD53D, 2px 2px 2px #FFD53D, 2px 2px 2px #FFD53D;*/
+	/*color: #ffd53d;
+	text-shadow: 2px 2px 2px gray, 2px 2px 2px gray, 2px 2px 2px gray, 2px 2px 2px gray;	*/
+}
+
+.ava {
+	float: left;
+	margin-left: 2%;
+	margin-top: 16%;
+	margin-bottom: 1.5%;
+	font-size: 40px;
+}
+
+div .s p{
+	float: left;
+	margin-top: 20%;
+	margin-left: -6%;
+	font-size: 60px;
+	font-weight: bolder;
+	display: inline;
+}
+
+div .cript p{
+	margin-top: 5%;
+	margin-left: 31%;
+	font-size: 40px;
+	display: inline;
+}
+
+.club_text {
+	float: left;
+	margin-left: 17%;
+	margin-top: 4%;
+	line-height: 220%;
+}
+footer{
+    position: fixed;
+}
