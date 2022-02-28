@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <title>Menu</title>
-    <style>
-        body{ margin:0%; }
+/* 상단바 css */
+body{
+    margin:0%;
+    }
         #menu{
             position: fixed;  /*위치고정*/
             width:100%;
@@ -11,11 +10,13 @@
             text-align: right;   /*오른쪽정렬*/
             background-color: #ffcf21;
         }
+
         ul{
             height:40px;
             margin: 0%;
             padding-right: 4%;
         }
+
         il{ padding-left: 4%; }
         #menu ul li a{ display:block; }
         a:link { color:black; }  /*클릭시 색깔*/
@@ -24,22 +25,6 @@
             position: fixed;  /*위치고정*/
             left:0%;
         }
+
         a{text-decoration-line: none;}  /*링크밑줄x*/
         a:active { color:#d3b239; }  /*클릭중 색깔*/
-    </style>
-
-    <body>
-        
-        <div id='menu'>
-            <ul>
-                <il id='logo'>logo</il>
-                <il><a href='apply.html'>JS 지원</a></il>
-                <il><a href='Project.html'>JS 스터디 프로젝트</a></il>
-                <il><a href='JS.html'>JS 동아리 활동</a></il>
-                <il><a href='QnA.html'>Q&A</a></il>
-            </ul>
-        </div>
-        <br>
-
-    </body>
-</html>

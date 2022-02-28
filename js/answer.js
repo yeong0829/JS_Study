@@ -2,6 +2,7 @@ const title = document.querySelector('#title'); //질문
 const day = document.querySelector('#day');
 const content = document.querySelector('#content'); //질문 내용
 const answer = document.querySelector('#answer');
+
 const list = document.querySelector('#list');
 
 

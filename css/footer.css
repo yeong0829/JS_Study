@@ -35,7 +35,6 @@ html, body {
 .img-text1, .img-text2, .img-text3  {
     display: inline-block;
     margin: 0 auto;
-    float: left;
 }
 
 p {
@@ -54,9 +53,10 @@ footer{
     left: 40%;
     margin-left: -200px;
     margin-top: 43%;*/
-    position: absolute;
+    /*position: fixed;    footer 하단 고정*/
+    bottom: 0;
     width: 100%;
-    top: 84%;
+    top: 87%;
     left: 0%;
     background-color: #BDBDBD;
 }

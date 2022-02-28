@@ -1,115 +1,151 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>사진 밑 글씨 연습</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/member_intro.css" />
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-</head>
-<body>
+        <title>JS 동아리원 소개</title>
+    
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/member_intro.css">
+        <link rel="stylesheet" type="text/css" href="../css/footer.css">
+        <link rel="stylesheet" type="text/css" href="../css/fullpage.css">
+        <link rel="stylesheet" type="text/css" href="../css/scroll.css">
+        <link rel="stylesheet" type="text/css" href="../css/img_slide.css">
+    </head>
+<body onload="slide_active()">
     <div id='menu'>
         <ul>
-             <il id='logo'>logo</il>
-             <il><a href=# onclick="location.href='club_intro2.html'">JS 지원</a></il>
-             <il><a href=#>JS 스터디 프로젝트</a></il>
-             <il><a href=# onclick="location.href = 'mamber_intro2.html'">JS 동아리 활동</a></il>
-             <il><a href=#>Q&A</a></il>
+            <il id='logo'><a href='club_intro.html'>logo</a></il>
+            <il><a href='apply.html'>JS 지원</a></il>
+            <il><a href='Project.html'>JS 스터디 프로젝트</a></il>
+            <il><a href='JS.html'>JS 동아리 활동</a></il>
+            <il><a href='QnA.html'>Q&A</a></il>
         </ul>
     </div> <!-- 메뉴 바 -->
     <br>
 
-    <div class = "season11">
-        <p>11기</p>
+    <div id="fullpage">
+        <div class="section" id="section0">     
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="../img/1_project.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="../img/2_project.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="../img/2_project2.png" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section1">    
+            <div class = "season11-text">
+                <p>11기</p>
+            </div>
+            <br>
+            <div class = "season11-line1"> <!-- 11기 선1 -->
+                <hr width = "1350px" size="2" color="#632486">
+            </div>
+
+            <div class = "season11-line2"> <!-- 11기 선2 -->
+                <hr width = "1350px" size="3" color="#632486">
+            </div>
+
+            <div class = "season11div">
+                <div class = "season11-1"> <!-- 11기 왼쪽줄 -->
+                    <div class="member1">
+                        <img src="../img/psy.png" />
+                    </div>
+
+                    <div class="member3">
+                        <img src="../img/lhn.png" />
+                    </div>
+                </div>
+
+                <div class = "season11-2"> <!-- 11기 오른쪽줄 -->
+                    <div class = "member2">
+                        <img src="../img/phw.png" />
+                    </div>
+
+                    <div class="member4">
+                        <img src="../img/jsy3.png" />
+                    </div>
+                </div>
+            </div> <!-- 11기 div -->
+        </div>
+        <br>
+        <br>
+
+        <div class="section" id="section2"> 
+            <div class = "season12-text">
+                <p>12기</p>
+            </div>
+            <br>
+            <div class = "season12-line1"> <!-- 12기 선1 -->
+                <hr width = "1350px" size="2" color="#03933F">
+            </div>
+
+            <div class = "season12-line2"> <!-- 12기 선2 -->
+                <hr width = "1350px" size="3" color="#03933F">
+            </div>
+
+            <div class = "season12div">
+                <div class = "season12-1"> <!-- 12기 왼쪽줄 -->
+                    <div class="member5">
+                        <img src="../img/kys.png" />
+                    </div>
+
+                    <div class="member7">
+                        <img src="../img/syr.png" />
+                    </div>
+
+                    <div class="member9">
+                        <img src="../img/icy.png" />
+                    </div>
+                </div>
+
+                <div class = "season12-2"> <!-- 12기 오른쪽줄 -->
+                    <div class="member6">
+                        <img src="../img/pmj.png" />
+                    </div>
+
+                    <div class="member8">
+                        <img src="../img/yhw.png" />
+                    </div>
+
+                    <div class="member10">
+                        <img src="../img/jsy2.png" />
+                    </div>
+                </div>
+            </div> <!-- 12기 div-->
+        </div>
+
+        <div class="section" id="section3">
+            <footer class="footer"> 
+                <!-- <h3 class="notice">정보</h3> --> 
+                <div class="footer-info">
+                    <div>
+                        학교 주소 | 서울특별시 관악구 대학동 호암로 546
+                    <br>
+                        Js 스터디 | s2026@e-mirim.hs.kr
+                    <br>
+                        Developer | 박수연 박혜원 주서영 김윤서 임채영 신유림 양혜원
+                    <br>
+                        Designer | 이하나 박민지 전수연
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
-
-    <div class = "img-text1">
-        <div class="img-with-text1">
-            <img src="member_pic/psy.png" />
-            <p>박수연</p>
-            <p>소프트웨어과</p>
-        </div>
-
-        <!-- <div class="img-with-text2">
-            <img src="member_pic/.png" />
-            <p>ㅇㅇㅇ</p>
-            <p>소프트웨어과</p>
-        </div> -->
-    </div> <!-- 첫 번째 줄 -->
-
-    <div class = "img-text2">
-        <div class = "img-with-text3">
-            <img src="member_pic/phw.png" />
-            <p>박혜원</p>
-            <p>소프트웨어과</p>
-        </div>
-
-        <!-- <div class="img-with-text4">
-            <img src="member_pic/student1.jpg" />
-            <p>ㅇㅇㅇ</p>
-            <p>소프트웨어과</p>
-        </div> -->
-    </div> <!-- 두 번째 줄 -->
-
-    <div class = "img-text3">
-        <div class="img-with-text5">
-            <img src="member_pic/lhn.png" />
-            <p>이하나</p>
-            <p>디자인과</p>
-        </div>
-        
-        <!-- <div class="img-with-text6">
-            <img src="member_pic/student1.jpg" />
-            <p>ㅇㅇㅇ</p>
-            <p>소프트웨어과</p>
-        </div> -->
-    </div> <!-- 세 번째 줄 -->
-
-    <div class = "season12">
-        <p>12기</p>
-    </div>
-
-    <div class = "img-text4">
-        <div class="img-with-text7">
-            <img src="member_pic/kys.png" />
-            <p>김윤서</p>
-            <p>소프트웨어과</p>
-        </div>
-
-        <div class="img-with-text8">
-            <img src="member_pic/yhw.png" />
-            <p>양혜원</p>
-            <p>웹솔루션과</p>
-        </div>
-    </div> <!-- 네 번째 줄 -->
-
-    <div class = "img-text5">
-        <div class="img-with-text9">
-            <img src="member_pic/icy.png" />
-            <p>임채영</p>
-            <p>소프트웨어과</p>
-        </div>
-        
-        <div class="img-with-text10">
-            <img src="member_pic/pmj.png" />
-            <p>박민지</p>
-            <p>디자인과</p>
-        </div>
-    </div> <!-- 다섯 번째 줄 -->
-
-    <div class = "img-text6">
-        <div class="img-with-text11">
-            <img src="member_pic/syr.png" />
-            <p>신유림</p>
-            <p>웹솔루션과</p>
-        </div>
-
-        <div class="img-with-text12">
-            <img src="member_pic/jsy.png" />
-            <p>전수연</p>
-            <p>디자인과</p>
-        </div>
-    </div> <!-- 여섯 번째 줄 -->
-
+    <script type="text/javascript" src="../js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+        });
+    </script>
 </body>
+<script type="text/javascript" src="../js/img_slide.js"></script>
 </html>
