@@ -3,6 +3,15 @@
 	padding: 0;
 }
 
+#section0, #section1, #section2{
+}
+
+.footer{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+}
+
 .img-text1, .img-text2, .img-text3, .img-text4, .img-text5 {
     text-align: justify;
     width: 260px;
@@ -24,7 +33,7 @@
 }
 
 .img-text2 {
-    padding-right: 20%; //11기 옆 오른쪽 공백
+    padding-right: 20%; /*11기 옆 오른쪽 공백*/
 }
 
 .img-text3, .img-text4, .img-text5 {
