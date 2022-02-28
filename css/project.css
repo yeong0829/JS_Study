@@ -1,3 +1,4 @@
+
 body{ margin:0%; overflow-x: hidden;}
 #menu{
     width: 100%;
@@ -54,5 +55,4 @@ table.explain{
 }
 
 footer { padding-bottom: 5%;}
-
 img{border:1px solid black;}
