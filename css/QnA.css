@@ -48,7 +48,7 @@ th{
     text-align: center;
     margin-top: 2%;
     font-weight: 500;
-    margin-bottom: 2%;
+    margin-bottom: 6.3%;
 }
 #un{
     text-align: center;
@@ -63,4 +63,8 @@ th{
 }
 footer{
     position: fixed;
+}
+
+#num, #day{
+    font-weight: 400;
 }
