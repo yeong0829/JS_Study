@@ -58,17 +58,8 @@ footer{
     width: 100%;
     top: 87%;
     left: 0%;
-    background-color: #BDBDBD;
+    text-align: center;
+    color: gray;
+    padding-bottom: 1%;
 }
 
-footer .footer-info {
-    /*float: left;
-    width: 400px;*/
-    padding: 5px 10px;
-    padding-top: 20px;
-    text-align: center;
-    font-family: "Noto Sans KR";
-    color: #F6F6F6;
-    font-size: small;
-    display: inline;
-}

@@ -41,6 +41,8 @@ th{
     font-weight: 500;
 }
 
-footer{
-    position: fixed;
+footer {
+    color: gray;
+    text-align: center;
+    padding-top: 10%;
 }
