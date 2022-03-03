@@ -6,9 +6,8 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
-  margin-top: -15%;
+  margin-top: 30px;
   position: relative;
-  margin: auto;
 }
 
 /* Caption text */

@@ -6,12 +6,6 @@
 #section0, #section1, #section2{
 }
 
-.footer{
-    display: flex;
-    position: absolute;
-    justify-content: space-around;
-}
-
 .season11-1, .season11-2, .season12-1, .season12-2 {
     text-align: justify;
     width: 600px;
