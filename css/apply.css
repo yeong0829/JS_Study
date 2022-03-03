@@ -6,6 +6,9 @@
 body {
     margin-left: auto ;
     margin-right: auto ;
+    -ms-overflow-style: none; 
+} ::-webkit-scrollbar { 
+  display: none; 
 }
 
 @media (min-width:768px) {}
