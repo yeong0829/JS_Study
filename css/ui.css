@@ -7,15 +7,6 @@ body{ margin:0%; overflow-x: hidden;}
     position: absolute; 
     top:0%;
 }
-
-.container{
-    margin-top: 5%;
-    margin-left: 17%;
-    margin-right:17%;
-    margin-bottom:5%;
-}
-
-<<<<<<< HEAD
 #logo{
     position: absolute;
     height:100%;
@@ -25,8 +16,15 @@ body{ margin:0%; overflow-x: hidden;}
     margin-left: 1.8%;
     margin-top: 0.2%;
 }
-=======
->>>>>>> 768ee58c7b2c80e0665425350929e403c9aa1fe0
+
+
+.container{
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-right:17%;
+    margin-bottom:5%;
+}
+
 div.test {
     background-color: #FFD53D;
         width: 100%;
@@ -68,4 +66,3 @@ table.explain{
 }
 
 footer { padding-bottom: 5%;}
-img{border:1px solid black;}
