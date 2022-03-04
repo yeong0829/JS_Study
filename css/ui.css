@@ -4,6 +4,16 @@ body{
 ::-webkit-scrollbar { 
     display: none; 
 }
+
+#logo{
+    position: absolute;
+    height:100%;
+    width:100%;
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 1.8%;
+    margin-top: 0.2%;
+}
 div.test {
     background-color: #FFD53D;
     width: 100%;
