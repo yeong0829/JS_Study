@@ -54,7 +54,7 @@ th{
 #mo{
     margin-right: 15%;
     margin-left: 12%;
-    background-color: #dcdcdc;
+    background-color: #dfdfdfec;
     text-align: center;
     margin-top: 2%;
     font-weight: 500;
@@ -63,14 +63,6 @@ th{
 }
 #un{
     text-align: center;
-}
-#q{
-    text-align: center;
-    background-color: rgb(240, 240, 240);
-    margin-right: 28%;
-    margin-top: 2%;
-    margin-left: 28%;
-    margin-bottom: 5%;
 }
 footer{
     position: fixed;
