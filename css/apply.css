@@ -1,6 +1,8 @@
 *{
 	font-family: "Noto Sans KR";
 }
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+
 #logo{
   position: absolute;
   height:100%;

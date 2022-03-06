@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 
 .img-text1, .img-text2, .img-text3{
     text-align: justify;
