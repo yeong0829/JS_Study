@@ -2,14 +2,19 @@
    margin: 0;
    padding: 0;
 }
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+
 
 #section0, #section1, #section2{
 }
-
-.footer{
-    display: flex;
+#logo{
     position: absolute;
-    justify-content: space-around;
+    height:100%;
+    width:100%;
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 1.8%;
+    margin-top: 0.2%;
 }
 
 .season11-1, .season11-2, .season12-1, .season12-2 {
@@ -113,4 +118,10 @@
 .season12-line2 {
     margin-top: 0.5%;
     margin-left: 6%;
+}
+
+
+html{
+    height: 100%;
+  width: 100%;
 }

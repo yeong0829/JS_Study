@@ -1,7 +1,19 @@
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+
+#logo{
+    position: absolute;
+    height:100%;
+    width:100%;
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 1.8%;
+    margin-top: 0.2%;
+}
+
 #all{
     width: 7%;
     margin-top: 1.3%;
-    margin-left: 10%;
+    margin-left: 12%;
     margin-right: 30%;
     float: left;
     font-size: 90%;
@@ -11,7 +23,7 @@
     margin-top: 3%;
     width: 80%;
     margin-right: 12%;
-    margin-left: 10%;
+    margin-left: 12%;
     border-top: 1px solid #444444;
     border-collapse: collapse;
     margin-bottom: 1.5%;
@@ -37,29 +49,22 @@ th{
     text-align: center;
 }
 #m{
-    margin-left: 10%;
+    margin-left: 12%;
     margin-top: 3%;
     font-weight: 500;
 }
 #mo{
     margin-right: 15%;
-    margin-left: 15%;
-    background-color: #dcdcdc;
+    margin-left: 12%;
+    background-color: #dfdfdfec;
     text-align: center;
     margin-top: 2%;
     font-weight: 500;
     margin-bottom: 2%;
+    width: 80%;
 }
 #un{
     text-align: center;
-}
-#q{
-    text-align: center;
-    background-color: rgb(240, 240, 240);
-    margin-right: 28%;
-    margin-top: 2%;
-    margin-left: 28%;
-    margin-bottom: 5%;
 }
 footer{
     position: fixed;
