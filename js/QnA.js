@@ -20,6 +20,7 @@ function onclickBox(e){
     localStorage.setItem("date",JSON.stringify(date));
     localStorage.setItem("content",JSON.stringify(content));
 }
+
 function choice(value){
     switch(value){
         case '1':
