@@ -1,13 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-div {
-    text-align: center;
+.season11div, .season12div {
+    width: 100%;
+    margin: 0 auto;
 }
+
+/*.season11-text {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.season11-line1, .season11-line2 {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}*/
 
 body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 
@@ -133,22 +144,26 @@ body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 }*/
 
 .season11-line1 {
+    border: 0;
     margin-top: -0.5%;
-    margin-left: 6%;
+    margin-left: 10%;
 }
 .season11-line2 {
+    border: 0;
     margin-top: 0.5%;
-    margin-left: 6%;
+    margin-left: 10%;
 }
 
 .season12-line1 {
+    border: 0;
     margin-top: -0.7%;
-    margin-left: 6%;
+    margin-left: 10%;
 }
 
 .season12-line2 {
+    border: 0;
     margin-top: 0.5%;
-    margin-left: 6%;
+    margin-left: 10%;
 }
 
 html{
