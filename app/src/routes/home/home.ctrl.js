@@ -4,22 +4,22 @@
 
 const output ={
   home : (req, res) => {
-    res.render("home/index");
+    res.render("home/member_intro");
   },
   project : (req, res) => {
-    res.render("home/project");
+    res.render("home/Project");
   },
   apply: (req,res)=>{
-    res.render("home/apply");
+    res.render("home/aplly");
   },
   js: (req,res)=>{
-    res.render("home/js");
+    res.render("home/JS");
   },
   qna: (req,res)=>{
-    res.render("qna/apply");
+    res.render("home/QnA");
   },
-  answer: (req,res)=>{
-    res.render("answer/apply");
+  a1: (req,res)=>{
+    res.render("home/A1");
   }
   };
 
