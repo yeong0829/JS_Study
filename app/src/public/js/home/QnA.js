@@ -14,7 +14,7 @@ aa.forEach((box) =>{
 function onclickBox(e){
     let value = this.className;//class이름 가져오기(여기에선 번호 가져옴-class이름이 번호이기 때문)
     choice(value); //번호에 따른 변수에 값 넣어주기
-    location.replace('A1.html'); //파일 A1으로 넘어가기
+    location.replace('/A1'); //파일 A1으로 넘어가기
     localStorage.setItem("answer",JSON.stringify(answer));
     localStorage.setItem("question",JSON.stringify(question));
     localStorage.setItem("date",JSON.stringify(date));

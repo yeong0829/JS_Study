@@ -29,11 +29,4 @@ async function getUser() { // 로딩 시 사용자 가져오는 함수
     }else if(!reason){
         return alert('지원 사유를 입력하세요')
     }
-    try {
-      await axios.post('/user', { name, id, email,phone,reason });
-      getUser();
-    } catch (err) {
-      console.error(err);
-    }
-    e.target.username.value = '';
   });
