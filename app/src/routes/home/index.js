@@ -11,5 +11,5 @@ router.get("/apply", ctrl.output.apply);
 router.get("/js", ctrl.output.js);
 router.get("/qna", ctrl.output.qna);
 router.get("/a1", ctrl.output.a1);
-//router.post("/apply", ctrl.process.apply);
+router.post("/apply", ctrl.process.apply);
 module.exports = router;
