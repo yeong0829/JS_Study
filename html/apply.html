@@ -3,28 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>지원하기</title>
-	<link rel="stylesheet" type="text/css" href="css/apply.css" />
-	<link rel="stylesheet" type="text/css" href="css/bar.css" />
-	<script src="apply.js"></script>
-	
+	<title>JS 지원</title>
+	<link rel="stylesheet" type="text/css" href="../css/apply.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/footer.css" />
 </head>
 
 <body>
 	<div id='menu'>
-        <ul>
-            <il id='logo'>logo</il>
-            <il><a href=#>JS 지원</a></il>
-            <il><a href=#>JS 스터디 프로젝트</a></il>
-            <il><a href=#>JS 동아리 활동</a></il>
-            <il><a href=#>Q&A</a></il>
-        </ul>
-    </div>
+		<ul>
+			<il><a href='member_intro.html'><img id='logo' src ="../img/js스터디 로고.png"></a></il>
+			<il><a href='apply.html'>JS 지원</a></il>
+			<il><a href='Project.html'>JS 스터디 프로젝트</a></il>
+			<il><a href='JS.html'>JS 동아리 활동</a></il>
+			<il><a href='QnA.html'>Q&A</a></il>
+		</ul>
+	</div>
 
 	<header>
+	<div id='container'>
    	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	</header>
-		<img id='img' src="img/apply_1.jpg" style="max-width: 45.4%" height="auto" >
+	<div id='img'>
+		<img src="../img/apply_1.jpg" alt="test" style="max-width: 100%; width:50%; height: auto; position: absolute; z-index: -10;">
+	</div>
+	</div>
 
 	<div id='body'>
 		<div id='legend'>
@@ -32,43 +35,53 @@
 				<h1>JS 입부 신청</h1>
 			</legend><br>
 		</div>
-		<form id="frm" onSubmit="return Checkform()">
-			<div id='information'>
-				<label for="name">이름을 적어주세요.</label><br>
-				<div class="name">
-				<textarea id="name" name="namen" rows="1" cols="75" placeholder="이름"></textarea>
-				</div>
-				
-				<label for="idnum">학번을 적어주세요.</label><br>
-				<div class="idnum">
-				<textarea id="idnum" rows="1" cols="75" placeholder="학번"></textarea>
-				</div>
-				
-				<label for="email">이메일을 적어주세요.</label><br>
-				<div class="email">
-				<textarea id="email" rows="1" cols="75" placeholder="@e-mirim.hs.kr"></textarea>
-				</div>
-				
-				<label for="tel">전화번호를 적어주세요.</label><br>
-				<div class="tel">
-				<textarea id="tel" rows="1" cols="75" placeholder="010-1234-5678"></textarea>
-				</div>
-				<br>
+	<form id = "form">
+		<div id='information'>
+			<form action="/new">
+			<label for="iname">이름을 적어주세요.</label><br>
+			<div class="name">
+			<textarea id="name" rows="1" cols="75" name = "name" placeholder="이름"></textarea>
 			</div>
-			<div>
-				<label>지원 사유</label>
-				<span style="color:#aaa;" id="counter">(0/500)</span><br>
-				<div class="commentdiv">
-					<textarea class="comment" rows="6" cols="75" placeholder="500자 이하로 적어주세요." maxlength="500"></textarea>
-				</div>
-				<br><br>
+			<br>
+			<label for="id">학번을 적어주세요.</label><br>
+			<div class="idnum">
+			<textarea id="idnum" rows="1" cols="75" name = "id" placeholder="학번"></textarea>
 			</div>
-			<div id='submit'>
-				<button class="custom-btn btn-16">제출하기</button>
+			<br>
+			<label for="e">이메일을 적어주세요.</label><br>
+			<div class="email">
+			<textarea id="email" rows="1" cols="75" name = "email" placeholder="@e-mirim.hs.kr"></textarea>
 			</div>
+			<br>
+			<label for="t">전화번호를 적어주세요.</label><br>
+			<div class="tel">
+			<textarea id="tel" rows="1" cols="75" name = "phone" placeholder="010-1234-5678"></textarea>
+			</div>
+			<br><br>
+		</div>
+		<div>
+			<label>지원 사유</label>
+			<span style="color:#aaa;" id="counter">(0/500)</span><br>
+			<div class="commentdiv">
+			<textarea class="comment" rows="8" cols="75" name = "reason" placeholder="500자 이하로 적어주세요." maxlength="500"></textarea>
+			</div>
+			<br><br>
+		</div>
+		<div id='submit'>
+			<button class="custom-btn btn-16" type="submit">제출하기</button>
+		</div>
 		</form>
 	</div>
 
+	<footer> 
+        <div class="footer-info">
+            <div>
+                @js study
+            </div>
+        </div>
+    </footer>
 </body>
+<script src ="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="../js/apply.js"></script>
 
 </html>

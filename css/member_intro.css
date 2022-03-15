@@ -1,70 +1,172 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.img-text1, .img-text2, .img-text3, .img-text4, .img-text5 {
+.season11div, .season12div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*.season11-text {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.season11-line1, .season11-line2 {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}*/
+
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+
+
+#section0, #section1, #section2{
+}
+#logo{
+    position: absolute;
+    height:100%;
+    width:100%;
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 1.8%;
+    margin-top: 0.2%;
+}
+
+.season11-1, .season11-2, .season12-1, .season12-2 {
     text-align: justify;
-    width: 260px;
+    width: 600px;
 }
 
-.img-text1 img, .img-text2 img, .img-text3 img, .img-text4 img, .img-text5 img {
-    width: 260px;
-    height: 260px;
+.season11-1 img, .season11-2 img, .season12-1 img, .season12-2 img {
+    width: 600px;
+    height: 280px;
     display: inline-block; 
     margin: 0 auto;
 }
 
-.img-text1, .img-text2 {
-    padding-left: 7.5%;
-    padding-right: 7.5%;
-    /*padding-top: -20%;*/
+/* .season11-1, .season11-2 {
+    padding-left: 5.8%;
+    padding-right: 43.5%;
+    padding-top: 1.3%;
+    padding-bottom: 3%;
     text-align: center;
     float: left;
 }
 
-.img-text2 {
-    padding-right: 20%; //11기 옆 오른쪽 공백
-}
-
-.img-text3, .img-text4, .img-text5 {
-    padding-left: 7.5%;
-    padding-right: 7.5%;
-    /*padding-top: -20%;*/
-    padding-top: 3%;
+.season12-1, .season12-2 {
+    padding-left: 6%;
+    padding-right: 43%;
+    padding-top: 2%;
     padding-bottom: 1%;
     text-align: center;
     float: left;
+} */
+
+.member1, .member3 {
+    padding-left: 28%;
+    padding-right: 43.5%;
+    padding-top: 1.1%;
+    padding-bottom: 3%;
 }
 
-.img-with-text1, .img-with-text2, .img-with-text3, .img-with-text4, .img-with-text5, .img-with-text6, .img-with-text7, .img-with-text8, .img-with-text9, .img-with-text10 {
-    float: left;
+.member2, .member4 {
+    padding-left: 33%;
+    padding-right: 43.5%;
+    padding-top: 1.1%;
+    padding-bottom: 3%;
+}
+
+.member5, .member7, .member9 {
+    padding-left: 28%;
+    padding-right: 43.5%;
+    padding-top: 4%;
     padding-bottom: 5%;
 }
 
-.img-text1, .img-text2, .img-text3, .img-text4, .img-text5 {
+.member6, .member8, .member10 {
+    padding-left: 33%;
+    padding-right: 43.5%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.member1, .member2, .member3, .member4, .member5, .member6, .member7, .member8, .member9, .member10 {
+    float: left;
+    padding-bottom: 0%;
+}
+
+.season11-1, .season11-2, .season12-1, .season12-2 {
     display: inline-block;
     margin: 0 auto;
     float: left;
 }
 
-p {
-    font-family: "Noto Sans KR";
+.season11-text {
+    width: 100px;
+    height: 60px;
+    margin-top: 0%;
+    margin-bottom: -1%;
+    margin-left: 48%;
 }
 
-.season11, .season12 {
-	width: 100px;
-	height: 50px;
-	margin-top: 3%;
-	margin-left: 5%;
-	font-family: "Noto Sans KR";
-	font-size: 35px;
-	color: black;
-	font-weight: bold;
-	text-align: center;
-	line-height: 50px;
+.season11-text p {
+    color: black;
+    font-family: 'Noto Sans KR';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    /*text-shadow: -.08em .08em #E7DCD7;*/
 }
 
-.season12 p {
+.season12-text {
+    width: 100px;
+    height: 60px;
+    margin-top: 40%;
+    margin-left: 48%;
+}
+
+.season12-text p {
+    color: black;
+    font-family: 'Noto Sans KR';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    /*text-shadow: -.08em .08em #E7DCD7;*/
+}
+
+/*.season12-text p {
     margin-top: 30%; 
+}*/
+
+.season11-line1 {
+    border: 0;
+    margin-top: -0.5%;
+    margin-left: 10%;
+}
+.season11-line2 {
+    border: 0;
+    margin-top: 0.5%;
+    margin-left: 10%;
+}
+
+.season12-line1 {
+    border: 0;
+    margin-top: -0.7%;
+    margin-left: 10%;
+}
+
+.season12-line2 {
+    border: 0;
+    margin-top: 0.5%;
+    margin-left: 10%;
+}
+
+html{
+    height: 100%;
+    width: 100%;
 }

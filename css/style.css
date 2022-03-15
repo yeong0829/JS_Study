@@ -2,29 +2,29 @@
 body{
     margin:0%;
     }
-        #menu{
-            position: fixed;  /*위치고정*/
-            width:100%;
-            height:50px;
-            line-height: 50px;   /*글자위치*/
-            text-align: right;   /*오른쪽정렬*/
-            background-color: #ffcf21;
-        }
+#menu{
+    position: fixed;  /*위치고정*/
+    width:100%;
+    height:50px;
+    line-height: 50px;   /*글자위치*/
+    text-align: right;   /*오른쪽정렬*/
+    background-color: #ffcf21;
+}
 
-        ul{
-            height:40px;
-            margin: 0%;
-            padding-right: 4%;
-        }
+ul{
+    height:40px;
+    margin: 0%;
+    padding-right: 4%;
+}
 
-        il{ padding-left: 4%; }
-        #menu ul li a{ display:block; }
-        a:link { color:black; }  /*클릭시 색깔*/
-        a:visited { color:black; }  /*클릭후 색깔*/
-        #logo{
-            position: fixed;  /*위치고정*/
-            left:0%;
-        }
+il{ padding-left: 4%; }
+#menu ul li a{ display:block; }
+a:link { color:black; }  /*클릭시 색깔*/
+a:visited { color:black; }  /*클릭후 색깔*/
+#logo{
+    position: fixed;  /*위치고정*/
+    left:0%;
+}
 
-        a{text-decoration-line: none;}  /*링크밑줄x*/
-        a:active { color:#d3b239; }  /*클릭중 색깔*/
+a{text-decoration-line: none;}  /*링크밑줄x*/
+a:active { color:#d3b239; }  /*클릭중 색깔*/

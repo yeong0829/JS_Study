@@ -1,75 +1,69 @@
-            /* 폰트 지정 못함 */
-            body{
-                 margin:0%; 
-                 font-size: 115%;
-            }
-            #menu{
-                position: fixed;  /*위치고정*/
-                width:100%;
-                height:50px;
-                line-height: 50px;   /*글자위치*/
-                text-align: right;   /*오른쪽정렬*/
-                background-color: #ffcf21;
-                z-index: 50; 
-            }
-            ul{
-                height:40px;
-                margin: 0%;
-                padding-right: 4%;
-            }
-            il{ padding-left: 4%; }
-            #menu ul li a{ display:block; }
-            a:link { color:black; }  /*클릭시 색깔*/
-            a:visited { color:black; }  /*클릭후 색깔*/
-            #logo{
-                position: fixed;  /*위치고정*/
-                left:0%;
-            }
-            a{text-decoration-line: none;}  /*링크밑줄x*/
-            a:active { color:#d3b239; }  /*클릭중 색깔*/
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 
-            div.test {
-                background-color: #FFD53D;
-                width: 100%;
-                float: right;
-                margin-bottom: 5%;
-            }
-            ul{
-                list-style: none;
-                margin: 0;
-                padding: 0;
-            }
-            li {
-                color: rgb(73, 73, 73);
-                margin-right: 1.5%;
-                margin-top: 1.5%;
-                margin-bottom: 1.5%;
-                padding: 0 0 0 0;
-                border: 0;
-                float: right;
-            }
+body{ margin:0%; overflow-x: hidden;}
+#menu{
+    width: 100%;
+    height:50px; 
+    border:0%; 
+    position: absolute; 
+    top:0%;
+}
+#logo{
+    position: absolute;
+    height:100%;
+    width:100%;
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 1.8%;
+    margin-top: 0.2%;
+}
 
-            div.box {
-                position: relative;
-                
-                width: 20%;
-                height: 5px;
-                background-color: #845fa8;
-                float: right;
-                margin-right: 19%;
-                
-            }
 
-            table.explain{
-                margin: 0;
-                padding: 0;
-                width: 22%;
-                border: 0px; 
-                padding-top: 7%; 
-                padding-left: 4%; 
-                text-align: center;
-            }
+.container{
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-right:17%;
+    margin-bottom:7%;
+}
 
-            footer {
-                padding-bottom: 7%;
-            }
+div.test {
+    background-color: #FFD53D;
+        width: 100%;
+        float: right;
+        margin-bottom: 5%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: rgb(73, 73, 73);
+    margin-right: 1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0 0 0 0;
+    border: 0;
+    float: right;            
+}
+
+div.box {
+    z-index:-10;
+    position: relative;
+    width: 30%;
+    height: 5px;
+    background-color: #845fa8;
+    float: right;
+    margin-top:0%;
+}
+
+table.explain{
+    width: 35%;
+    padding-top: 3%; 
+    padding-left:6%;
+    text-align: center;
+}
+
+footer { padding-bottom: 5%;}

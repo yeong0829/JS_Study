@@ -12,20 +12,18 @@ aa.forEach((box) =>{
     box.addEventListener('click', onclickBox)
 });
 function onclickBox(e){
-
-    let value = this.className;
-    alert(value);
-    choice(value); //몇번 질문인지
-    location.replace('Answer/A1.html');
+    let value = this.className;//class이름 가져오기(여기에선 번호 가져옴-class이름이 번호이기 때문)
+    choice(value); //번호에 따른 변수에 값 넣어주기
+    location.replace('A1.html'); //파일 A1으로 넘어가기
     localStorage.setItem("answer",JSON.stringify(answer));
     localStorage.setItem("question",JSON.stringify(question));
     localStorage.setItem("date",JSON.stringify(date));
     localStorage.setItem("content",JSON.stringify(content));
 }
+
 function choice(value){
     switch(value){
         case '1':
-
             answer = `JS스터디에서 별도로 필요한 자격 조건이 정해진 내용은 없습니다. 또한 면접시에는 주로 동아리에 대한 의지와 지원동기와 같이 함께 활동해나갈 팀원을 구한다는 것에 초점을 잡고 있습니다.`
             question = `동아리 입부 신청`
             content = `JS 스터디에 입부하고 싶은 소프트웨어과입니다. 혹시 동아리 신청할시 필요한 자격 조건이 따로 있을까요? 그리고 성적과 같은 요인들이 많은 영향을 미치나요?`
@@ -45,9 +43,9 @@ function choice(value){
             
             break;
         case '4' :
-            answer =`JS스터디의 담당 선생님은 백현정 선생님입니다!`;
-            question=`담당선생님`;
-            content = `동아리 담당 선생님은 누구신가요?`
+            answer =`js스터디에서는 학기별 프로젝트, 멘토링, 공모전 등과 같이 실력 증진과 다양한 경험을 쌓을 수 있는 활동을 진행합니다. 주요 공모전은 1,2학년이 같이 팀을 이루어 진행하고(2021년도:STAC), 저희 동아리의 주요 활동인 멘토링은 매주 진행하여 성적 향상에 도움을 줄 수 있습니다.`;
+            question=`동아리 활동`
+            content = `정확히 어떤 활동을 주요적으로 진행하는지 궁금해요!`;
             date = `2022/1/12`;
             break;
         case '5' :
@@ -57,9 +55,9 @@ function choice(value){
             date = `2022/1/12`;
             break;
         case '6' :
-            answer =`js스터디에서는 학기별 프로젝트, 멘토링, 공모전 등과 같이 실력 증진과 다양한 경험을 쌓을 수 있는 활동을 진행합니다. 주요 공모전은 1,2학년이 같이 팀을 이루어 진행하고(2021년도:STAC), 저희 동아리의 주요 활동인 멘토링은 매주 진행하여 성적 향상에 도움을 줄 수 있습니다.`;
-            question=`동아리 활동`
-            content = `정확히 어떤 활동을 주요적으로 진행하는지 궁금해요!`;
+            answer =`JS스터디의 담당 선생님은 백현정 선생님입니다!`;
+            question=`담당선생님`;
+            content = `동아리 담당 선생님은 누구신가요?`
             date = `2022/1/12`;
             break;
         case '7' :

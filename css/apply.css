@@ -1,10 +1,24 @@
 *{
 	font-family: "Noto Sans KR";
 }
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+
+#logo{
+  position: absolute;
+  height:100%;
+  width:100%;
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: 1.8%;
+  margin-top: 0.2%;
+}
 
 body {
     margin-left: auto ;
-    margin-right: auto ;
+    margin-right: auto;
+    -ms-overflow-style: none; 
+} ::-webkit-scrollbar { 
+  display: none; 
 }
 
 @media (min-width:768px) {}
@@ -13,45 +27,44 @@ body {
   width: 520px;
   height: 35px;
   background: #f6f6f6;
-  margin-bottom: 4%;
+  margin-top: 1%;
 }
 
 .idnum {
   width: 520px;
   height: 35px;
   background: #f6f6f6;
-  margin-bottom: 4%;
+  margin-top: 1%;
 }
 
 .email {
   width: 520px;
   height: 35px;
   background: #f6f6f6;
-  margin-bottom: 4%;
+  margin-top: 1%;
 }
 
 .tel {
   width: 520px;
   height: 35px;
   background: #f6f6f6;
+  margin-top: 1%;
 }
 
 .commentdiv {
   width: 520px;
-  height: 125px;
+  height: 160px;
   background: #f6f6f6;
-
+  margin-top: 1%;
 }
 
 #img {
 	float: left;
-
 }
 
 #body {
 	padding-top: 5%;
-	padding-left: 55%;
-  padding-right: 20%;
+	padding-left: 60%;
 }
 
 #legend {
@@ -79,13 +92,16 @@ textarea:focus {
 	outline: none;
 }
 
+.comment {
+  margin-top: 1%;
+}
+
 p {
   font-weight: 300;
   text-align: center;
   font-size: 18px;
   color: #ffcf21;
 }
-
 .frame {
   width: 90%;
   margin: 40px auto;
@@ -145,5 +161,3 @@ button {
 .btn-16:active {
   top: 2px;
 }
-
-

@@ -1,0 +1,70 @@
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+
+#logo{
+    position: absolute;
+    height:100%;
+    width:100%;
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 1.8%;
+    margin-top: 0.2%;
+}
+
+body{ margin:0%; overflow-x: hidden;}
+#menu{
+    width: 100%;
+    height:50px; 
+    border:0%; 
+    position: absolute; 
+    top:0%;
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-right:17%;
+    margin-bottom:5%;
+}
+
+div.test {
+    background-color: #FFD53D;
+        width: 100%;
+        float: right;
+        margin-bottom: 5%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: rgb(73, 73, 73);
+    margin-right: 1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0 0 0 0;
+    border: 0;
+    float: right;            
+}
+
+div.box {
+    z-index:-10;
+    position: relative;
+    width: 30%;
+    height: 5px;
+    background-color: #845fa8;
+    float: right;
+    margin-top:0%;
+}
+
+table.explain{
+    width: 35%;
+    padding-top: 3%; 
+    padding-left:6%;
+    text-align: center;
+}
+
+footer { padding-bottom: 5%;}
+#a {border:1px solid black;}
