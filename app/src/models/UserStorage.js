@@ -1,16 +1,21 @@
 "use strict";
 
-class UserStorage {
-  static #users = {
-    name : ["박수연", "김윤서"],
-    idnum: ["2209","2210"],
-    email: ["s2026@e-mirim.hs.kr"],
-    tel: ["010-7613-0231","010-1234-1234"],
-    comment: ["열심히 할게요ㅜㅜ진짜ㅜㅜ","꿈은 없고요 놀고 싶습니다"],
-  };
+const fs = require("fs").promises;
 
-  static getUsers(...fields) {
-    const users = this.#users;
+class UserStorage {
+  static #getUserInfo(data, id){
+    const users = (JSON.parse(data));    
+    const idx = users.id.indexOf(idnum);
+      const usersKeys = Object.keys(users); // => [name, email, tel, comment]
+      const userInfo = usersKeys.reduce((newUser, info) => {
+        newUser[info] = users[info][idx];
+        return newUser;
+      }, {});
+    return userInfo;
+  }
+  static #getUsers(data, isAll, fields){
+    const users = JSON.parse(data);
+    if(isAll) return users;
     const newUsers = fields.reduce((newUsers, field) => {
       if (users.hasOwnProperty(field)) {
         newUsers[field] = users[field];
@@ -20,26 +25,34 @@ class UserStorage {
     return newUsers;
   }
 
+  static getUsers(isAll,...fields) {
+    return fs.readFile("./src/databases/users.json")
+    .then((data) => {
+    return this. #getUsers(data, isAll, fields);
+  })
+  .catch(console.error);
+    //const users = this.#users;
+  }
+
   static getUserInfo(idnum) {
-    const users = this.#users;
-    const idx = users.id.indexOf(idnum);
-    const usersKeys = Object.keys(users); // => [name, email, tel, comment]
-    const userInfo = usersKeys.reduce((newUser, info) => {
-      newUser[info] = users[info][idx];
-      return newUser;
-    }, {});
-    return userInfo;
+    return fs.readFile("./src/databases/users.json")
+      .then((data) => {
+      return this.#getUserInfo(data, id)
+    })
+    .catch(console.error);
   }
-  static save(userInfo){
-  const users = this.#users;
-  users.name.push(userInfo.name);
-  users.idnum.push(userInfo.idnum);
-  users.email.push(userInfo.email);
-  users.tel.push(userInfo.tel);
-  users.comment.push(userInfo.comment);
-  console.log(users);
-  }
-}
+
+  static async save(userInfo){
+    const users = await this.getUsers(true);
+      users.name.push(userInfo.name);
+      users.tel.push(userInfo.tel);
+      users.idnum.push(userInfo.idnum);
+      users.email.push(userInfo.email);
+      users.comment.push(userInfo.comment);
+      fs.writeFile("./src/databases/users.json", JSON.stringify(users));
+      return { success: true};
+    }
+ }
 
 
 module.exports = UserStorage;

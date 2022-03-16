@@ -24,9 +24,9 @@ const output ={
   };
 
 const process={
-  apply:(req, res)=>{
+  apply:async (req, res)=>{
     const user = new User(req.body);
-    const response = user.apply();
+    const response = await user.apply();
     return res.json(response);
   }
 };
