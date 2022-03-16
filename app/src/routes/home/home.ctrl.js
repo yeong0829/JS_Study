@@ -1,6 +1,6 @@
 "use strict";
 
-//const User = require("../../models/User");
+const User = require("../../models/User");
 
 const output ={
   home : (req, res) => {
@@ -10,7 +10,7 @@ const output ={
     res.render("home/Project");
   },
   apply: (req,res)=>{
-    res.render("home/aplly");
+    res.render("home/apply");
   },
   js: (req,res)=>{
     res.render("home/JS");
@@ -30,8 +30,6 @@ const process={
     return res.json(response);
   }
 };
-
-
 
 module.exports = {
   output,
