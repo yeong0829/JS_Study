@@ -6,7 +6,6 @@ class User {
   constructor(body) {
     this.body = body;
   }
-
   async login() {
     const client = this.client;
     const {id, psword}= await UserStorage.getUserInfo(client.id);
