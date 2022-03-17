@@ -3,12 +3,13 @@ body{
     margin:0%;
     }
 #menu{
+    
     position: fixed;  /*위치고정*/
     width:100%;
     height:50px;
     line-height: 50px;   /*글자위치*/
     text-align: right;   /*오른쪽정렬*/
-    background-color: #ffcf21;
+    background: linear-gradient( to right, white, #ffcf21, #ffcf21,#ffcf21,#ffcf21, #d3b239 );
 }
 
 ul{
