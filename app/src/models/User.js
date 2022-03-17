@@ -9,7 +9,7 @@ class User {
 
   async login() {
     const client = this.client;
-    const {id, pswordawait}= await UserStorage.getUserInfo(client.id);
+    const {id, psword}= await UserStorage.getUserInfo(client.id);
   }
 
   async apply(){
