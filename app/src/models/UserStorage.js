@@ -44,6 +44,10 @@ class UserStorage {
 
   static async save(userInfo){
     const users = await this.getUsers(true);
+      if(users.name==""){
+        alert("이름을 입력하세요");
+        return { success :false};
+      }
       users.name.push(userInfo.name);
       users.tel.push(userInfo.tel);
       users.idnum.push(userInfo.idnum);
