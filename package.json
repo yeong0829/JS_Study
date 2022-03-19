@@ -16,6 +16,10 @@
     "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phw-plain/JS_Study.git"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT"
