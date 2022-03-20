@@ -9,7 +9,7 @@ body{
     height:50px;
     line-height: 50px;   /*글자위치*/
     text-align: right;   /*오른쪽정렬*/
-    background: linear-gradient( to right, white, #ffcf21, #ffcf21,#ffcf21,#ffcf21, #d3b239 );
+    background:  #ffcf21;
 }
 
 ul{
