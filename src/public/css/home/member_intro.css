@@ -10,9 +10,6 @@
 
 body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 
-
-#section0, #section1, #section2{
-}
 #logo{
     position: absolute;
     height:100%;
@@ -23,6 +20,10 @@ body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
     margin-top: 0.2%;
 }
 
+.season11, .season12{
+    display: flex;
+}
+
 .season11-1, .season11-2, .season12-1, .season12-2 {
     text-align: justify;
     width: 550px;
@@ -31,34 +32,25 @@ body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 .season11-1 img, .season11-2 img, .season12-1 img, .season12-2 img {
     width: 550px;
     height: 280px;
-    display: inline-block; 
     margin: 0 auto;
 }
 
 .member1, .member3 {
-    padding-left: 35%;
-    padding-right: 43.5%;
     padding-top: 1.1%;
     padding-bottom: 3%;
 }
 
 .member2, .member4 {
-    padding-left: 45%;
-    padding-right: 43.5%;
     padding-top: 1.1%;
     padding-bottom: 3%;
 }
 
 .member5, .member7, .member9 {
-    padding-left: 35%;
-    padding-right: 43.5%;
     padding-top: 4%;
     padding-bottom: 5%;
 }
 
 .member6, .member8, .member10 {
-    padding-left: 45%;
-    padding-right: 43.5%;
     padding-top: 4%;
     padding-bottom: 3%;
 }
@@ -82,7 +74,7 @@ body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 }
 
 div.season11-text {
-    margin-left: 50%;
+    margin-left: 48%;
 }
 
 .season11-text p {
@@ -97,7 +89,6 @@ div.season11-text {
 .season12-text {
     width: 100px;
     height: 60px;
-    margin-top: 40%;
     margin-left: 48%;
 }
 
