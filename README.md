@@ -42,5 +42,6 @@ PC로 접속 부탁드립니다.(현재 AWS 과금으로 인해 접속 할 수 �
 <ul>
   <li>AWS</li>
   <li>Node.js</li>
+  <li>Mysql</li>
   <li>HTML/CSS/JavaScript</li>
 </ul>
