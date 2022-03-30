@@ -29,13 +29,18 @@ PC로 접속 부탁드립니다.(현재 AWS 과금으로 인해 접속 할 수 �
 ![png_Home](./img/Home.png)
 
 #### JS 지원
-![png_Home](./img/Apply.png)
+![png_Apply](./img/Apply.png)
 
 #### JS 프로젝트
-![png_Home](./img/Project.png)
+![png_Project](./img/Project.png)
 
 #### JS 활동
-![png_Home](./img/Activity.png)
+![png_Activity](./img/Activity.png)
+
+#### Q&A
+![png_QnA1](./img/QnA1.png)
+
+![png_QnA2](./img/QnA2.png)
 
 <br>Built With
 --------------------
