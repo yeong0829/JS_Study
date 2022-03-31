@@ -30,16 +30,16 @@ PC로 접속 부탁드립니다. (현재 AWS 과금으로 인해 접속 할 수 
 
 <br>실행 화면
 --------------------
-#### 메인 화면
+#### Main
 ![png_Home](./img/Home.png)
 
-#### JS 지원
+#### JS Apply
 ![png_Apply](./img/Apply.png)
 
-#### JS 프로젝트
+#### JS Project
 ![png_Project](./img/Project.png)
 
-#### JS 활동
+#### JS Activities
 ![png_Activity](./img/Activity.png)
 
 #### Q&A
