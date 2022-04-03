@@ -53,5 +53,5 @@ PC로 접속 부탁드립니다. (현재 AWS 과금으로 인해 접속 할 수 
   <li>AWS - Server Hosting</li>
   <li>Node.js - Back-end Development</li>
   <li>Mysql - Database</li>
-  <li>HTML/CSS/JavaScript - Front-end Development</li>
+  <li>EJS/CSS/JavaScript - Front-end Development</li>
 </ul>
