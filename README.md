@@ -5,6 +5,7 @@
 <br>Website
 --------------------
 링크 : http://www.js-study.site:3001/ <br>
+Notion : https://grass-hickory-4de.notion.site/JS-11-12-ver-c47863b16a8d46b499056ce790a4e1f1 <br>
 PC로 접속 부탁드립니다. (현재 AWS 과금으로 인해 접속 할 수 없습니다)
 
 <br>동아리 소개
